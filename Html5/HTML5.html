@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practice HTML</title>
+	<link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+</head>
+<body>
+	<nav>
+		<a href="./allfhtml.html#text-formatting">Text Formatting</a>
+		<a href="./allfhtml.html#presentaion">Presentation</a>
+	</nav>
+	<section id="text-formatting">
+		<code>
+			<p>style="display: inline;"</p>
+			<h1 style="display: inline;">Tittle Example</h1>
+			<h2 style="display: inline;">Tittle Example</h2>
+			<h3 style="display: inline;">Tittle Example</h3>
+			<h4 style="display: inline;">Tittle Example</h4>
+			<h5 style="display: inline;">Tittle Example</h5>
+			<h6 style="display: inline;">Tittle Example</h6>
+		</code>
+		<!-- 
+			* Use different p, show in a new line.
+			* Use span, show in the same line. 
+		-->
+		<p>Long blocks of the text that are also displayed as block style by defaut. <i>Italic Words Example</i></p><p>This willl start on a new <b>line</b></p>
+		<span>Take up as much width as the text.</span> <span><em>Inside</em> the span tag</span>
+		</section>
+	<section id="presentation">
+		<h4>Resources</h4>
+		<!-- 
+			* alt: show text in the case that imagen doesn exits.
+		 -->
+		<img src="images" alt="The imagen doesn't exists.">
+		<!-- 
+			* Order List: Best directors and rank starting at. Bulleted (lista con viñetas) style.
+		-->
+		<p>ORDER List</p>
+		<ol>
+			<li>Firts Option</li>
+			<li>Second Option</li>
+			<li>Third Option</li>
+		</ol>
+		<!-- 
+			* Underlist
+		-->
+		<ul>
+			<li>Carrots</li>
+			<li>Potatoes</li>
+			<li>Bread</li>
+		</ul>
+		<!-- 
+			Table Elements
+			* td: rows(filas).
+			* border: line in the table
+			* thead: head of the table
+		-->
+		<table border="3">
+			<tr>
+				<td>Fruits</td>
+				<td>Apples</td>
+			</tr>
+			<tr>
+				<td>Vegetables</td>
+				<td>Carrots</td>
+			</tr>
+		</table>
+	</section>
+	<section id="multimedia">
+		<h2>Multimedia</h2>
+		<!--
+			Controls: show the options to control the video.
+			preload: load as the web page
+		 -->
+		<video>
+		</video>
+		<audio>
+		</audio>
+	</section>
+	<section>
+
+	<form>
+		<h2>Form Elements</h2>
+		<!--
+			For: Refers to the input with X  ID.
+		 -->
+		<label for="email-address"> Email </label>
+		<input id="email-address" type="email">	
+		<!--
+			For: In this way, its valid to work without ID in the label.
+		 -->
+		<label for="">
+			Enter you password
+			<input type="password" name="">
+		</label>
+		<label>
+			<input type="password" name="">
+		</label>
+	</form>
+	</section>
+	
+</body>
+</html>

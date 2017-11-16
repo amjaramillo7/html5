@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intro to Forms</title>
+</head>
+<body>
+	<h1>Form Basics</h1>
+	<form onsubmit="alert('Esto es una prueba')">
+		<input type="text" placeholder="Search" />
+		<input type="button" value="Submit" />
+	</form>
+	<button onclick="console.log('Hiciste Click')">Regular Button</button>
+	<h1>Intermediate Forms</h1>
+	<form>
+		<textarea></textarea>
+		<select>
+			<option>Number</option>
+			<option>Letter</option>
+		</select>
+	</form>
+	<p>Select something:</p>
+	<form>
+		<input id="cheddar" type="radio"/>
+		<label for="cheddar">Form 2</label>
+		<br/>
+		<input id="moz" type="radio"/>
+		<label for="moz">Form 3</label>
+
+		<input type="Submit" value="Submit" area-describedby="cheese-submit">
+	</form>
+	<dir id="cheese-submit" style="visibility: hidden;">
+		<h2>Describe Cheese</h2>
+		<p>It is an example</p>
+	</dir>
+	
+</body>
+</html>
